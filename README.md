@@ -1,7 +1,7 @@
 # mysqlTutorial
 
 sudo yum install https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm // 「.rpm」ファイルは、Linux用に開発されたパッケージ形式.  
-sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 // 鍵のエラー解決するやつ.  
+sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 // 鍵のエラーを解決する.  
 sudo systemctl start mysqld //.  
 sudo systemctl enable mysqld //.  
 systemctl status mysqld // MySQLの状態確認.  
