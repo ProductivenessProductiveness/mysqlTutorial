@@ -9,6 +9,6 @@ sudo grep 'temporary password' /var/log/mysqld.log // 一時的なパスワー�
 mysql -u root -p // mysqlに一時的なパスワードでログイン.  
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MyNewPass1!'; // 新しいパスワードを設定.  
 mysql -u root -p //　新しいパスワードでログイン.   
-CREATE DATABASE IF NOT EXISTS testdb; // 新たにデータベースを作成.  
+CREATE DATABASE testdb; // 新たにデータベースを作成.  
 SHOW DATABASES; // データベースの一覧を確認.  
 
